@@ -50,4 +50,4 @@ Include the latest version of [jQuery](http://jquery.com/download) and `jQuery.s
 ```javascript
 var myapp = angular.module('myapp', ['gs']);
 ```
-**Live Demo:** coming soon
+**Live Demo:** [http://jsfiddle.net/em6x1d90/](http://jsfiddle.net/em6x1d90/)
