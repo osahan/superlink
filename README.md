@@ -10,14 +10,14 @@ Include the latest version of [jQuery](http://jquery.com/download) and `jQuery.s
 
 ```html
 <script src="jQuery.min.js"></script>  
-<script src="jQuery.superLink.min.js"></script>
+<script src="dist/jQuery.superLink.min.js"></script>
 ```
 
 **Angular Directive**
 
 ```html
 <script src="angular.min.js"></script>  
-<script src="gs.superLink.min.js"></script>
+<script src="dist/gs.superLink.min.js"></script>
 ```
 
 
@@ -48,6 +48,6 @@ Include the latest version of [jQuery](http://jquery.com/download) and `jQuery.s
 
 **Angular**
 ```javascript
-var myapp = angular.module('myapp', ['gsSuperLink']);
+var myapp = angular.module('myapp', ['gs']);
 ```
 **Live Demo:** coming soon
