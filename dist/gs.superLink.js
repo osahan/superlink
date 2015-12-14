@@ -2,14 +2,14 @@
     'use strict';
 
     angular
-        .module('gs')
+        .module('gs', [])
         .directive('gsSuperLink', gsSuperLink);
 
     function gsSuperLink() {
 
         return {
             restrict: 'A',
-            link: function ($scope, $element, $attrs, $window) {
+            link: function ($scope, $element, $attrs) {
 
                 var linkUrl = $attrs.gsSuperLink;
 
@@ -26,7 +26,7 @@
                         return;
                     }
 
-                    $window.location = linkUrl;
+                    window.location = linkUrl;
                 });
             }
         };
