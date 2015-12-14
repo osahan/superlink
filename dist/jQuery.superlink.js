@@ -10,7 +10,7 @@
                                 'INPUT', 'SELECT', 'OPTION', 'OPTGROUP',
                                 'TEXTAREA'];
 
-            if ($.inArray(target.nodeName, escapedElements) !== -1) {
+            if ($.inArray(target.nodeName, elementsToSkip) !== -1) {
                 return;
             }
             window.location = link;
